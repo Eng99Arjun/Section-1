@@ -83,6 +83,21 @@
         .text-input-area{
             resize:none;
         }
+        footer{
+            background-color:var(--theme-color);
+            color: white;
+            padding: 50px 300px;
+            font-family: Roboto;
+            display: grid;
+            grid-template-columns: 3fr 1fr 1fr;
+
+        }
+        .social-link{
+            color: white;
+            text-decoration: none;
+            display: block;
+            margin-top: 10px;
+        }
         
     </Style>
 </head>
@@ -139,12 +154,23 @@
         <button class="form-btn">Submit</button>
     </form>
         </section>
-
-        
-
     </main>
     <footer>
+            <div>
+                <h3>Website Name</h3>
+                <p>&copy; 2024 Website Name</p>
+            </div>
+            <div>
+                <h4>Visit Us at: </h4>
 
+
+                <a href="#" class="social-link"><i class="fa-brands fa-square-facebook"></i> Facebook</a>
+                <a href="#" class="social-link"><i class="fa-brands fa-linkedin"></i> Linked In</a>
+                <a href="#" class="social-link"><i class="fa-brands fa-github"></i> Github</a>
+                <a href="#" class="social-link"><i class="fa-brands fa-instagram"> Instagram</i></a>
+
+
+            </div>
     </footer>
 
 </body>
